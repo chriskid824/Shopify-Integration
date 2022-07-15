@@ -1,0 +1,37 @@
+{
+  "name": "image-collector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "node dist/test.js",
+    "build": "./build.sh dev",
+    "deploy": "gcloud run deploy image-update --project=kscw-shopify-intg-jda8-stg --image=gcr.io/kscw-shopify-intg-jda8-stg/image-update --platform=managed --region=asia-east1",
+    "build-eevee": "./build.sh eevee",
+    "deploy-eevee": "gcloud run deploy image-update --project=kscw-shopify-intg-djl9-stg --image=gcr.io/kscw-shopify-intg-djl9-stg/image-update --platform=managed --region=asia-east1",
+    "build-prod": "./build.sh prod",
+    "deploy-prod": "gcloud run deploy image-update --project=kscw-shopify-intg-4jwk-prd --image=gcr.io/kscw-shopify-intg-4jwk-prd/image-update --platform=managed --region=asia-east1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^5.0.2",
+    "@shopify/shopify-api": "^2.1.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "gql-query-builder": "^3.5.9",
+    "mysql2": "^2.3.3",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.6.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "kc-si-migrate",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "batch": "node batch.js",
+    "deploy": "gcloud functions deploy shopify-id-sync --project kscw-shopify-intg-jda8-stg --entry-point idSync --runtime nodejs16 --region asia-east1",
+    "deploy-prod": "gcloud functions deploy shopify-id-sync --project kscw-shopify-intg-4jwk-prd --entry-point idSync --runtime nodejs16 --region=asia-east1",
+    "deploy-batch": "gcloud functions deploy shopify-id-batch-sync --project kscw-shopify-intg-jda8-stg --entry-point idBatchSyncHttp --runtime nodejs16 --region asia-east1",
+    "deploy-batch-prod": "gcloud functions deploy shopify-id-batch-sync --project kscw-shopify-intg-4jwk-prd --entry-point idBatchSyncHttp --runtime nodejs16 --region=asia-east1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^5.0.2",
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3"
+  }
+}

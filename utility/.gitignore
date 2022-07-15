@@ -1,0 +1,10 @@
+yarn-error.log
+node_modules/
+dist/
+.env
+stderr.log
+stdout.log
+cache*.json
+error*
+no-image-firestore-products
+no-image-products

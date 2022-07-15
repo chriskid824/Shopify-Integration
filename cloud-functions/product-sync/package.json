@@ -1,0 +1,23 @@
+{
+  "name": "kc-product-update",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud functions deploy product-update-http --project kscw-shopify-intg-jda8-stg --entry-point productUpdateHttp --runtime nodejs16 --trigger-http --region=asia-east1",
+    "deploy-prod": "gcloud functions deploy product-update-http --project kscw-shopify-intg-4jwk-prd --entry-point productUpdateHttp --runtime nodejs16 --trigger-http --region=asia-east1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^5.0.2",
+    "@google-cloud/pubsub": "^2.18.5",
+    "@shopify/shopify-api": "^2.0.0",
+    "google-auth-library": "^7.14.1",
+    "gql-query-builder": "^3.5.7",
+    "knex": "^1.0.3",
+    "mysql2": "^2.3.3"
+  }
+}

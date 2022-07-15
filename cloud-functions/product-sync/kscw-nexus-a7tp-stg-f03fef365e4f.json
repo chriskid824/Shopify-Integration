@@ -1,0 +1,24 @@
+{
+    "type": "service_account",
+    "project_id": "kscw-nexus-a7tp-stg",
+    "private_key_id": "f03fef365e4f7044060658a26b0007e95273e561",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8ubldWfMWX9l9\n2E4pYdHvbteW2W20zZF506+VRmYHkmPSP9PLsIdZgGvgGB3QmIsiU3qYrvuJk0oo\nsJ9I5GMSN0FIB+3UgmOZ7X2pDsYr6t0K5Iq3mgKbBvjxeroMkNsTeUlU+ENJZj7j\nb4vZVBykT41w8yIzfeRGVQuSqTk4PLxOmF8UornAYKWBHllNvLPo+BE/RH5VfMyR\nf9nzObCzAZ+gpiKiiOR0yS133Q6E23RioBLvrkEC7vlEQ8ivO2CKxfvHMVxav6po\nbwM+gObQ0K+H53/N/CSV6Vfe8kNuCtFXeKRhLTjuy7YiUk1JPmLAyGnERzNbAeOn\nRSd517SxAgMBAAECggEANFLhu6oGpXtpl2RzNzHxvIpkp2Qc8HXWEYrJMX/VJeBG\nYLJljCGjRQM/5V+KVJ0WZivy34YUIy587w8Y+mKnvRMovEnGfJax+qlHn6mC9AYn\nxq9ablD6y/SA7KJ0FqvKsXl9BVvXe/AnG3N/uH+DeWK8+kXOg6wxr/ZAQSc9wANM\nDM8d5GIRxp+VAInW94LkZudyL4S+TXS10rjZ6o8OgRKiBzpIb55LAM8y1HhzcoaC\nay27umhdVXzV+N8XVBcS8W+A+HiXhiiqot1Xf2NP6rcZ/RVKEms6g4gw1kraZc0C\nNdmaNf75puCL/sq2QSLGuk6WeLrjcsO/kKehW7KXqQKBgQD3dsVxUeOD6XvvsHKm\nPZkwfQbhk6izKXyHIwhov1zZtUHu3bujfccD5n0QEAYaR8OK9JB1vfi4oD6mxVOm\n1M8F89XSt06sWnKj3sdaemEomlHTdCqgylnKq1E5bLMVyzudV3JgL9gwltj4knF7\nrPwa1nV/v+MXEJup2wiqC85ynwKBgQDDPENg54UpJkCpTWBF6M3EmdjEuFUDIZbI\nIWrk05eBlLZR29l0GVzvBiMJNNjX2W1kPESMXqb33GqsTeSMUoqv9nTRdL3qNP3c\nh8ujSgtLnHyYclB7J4PZYmYDP1U7byODMn6WQO0drTaGdF2/J94xhsePtxthODxR\n6apxCnRmrwKBgQDGwwgdV9e1GTEpuQCtU+aaEqIXR0GF/fl+lX3onGOYncTCdiiD\nTcAu+s9SunwcWa3PC1aIq7h9moAX9YCWDHHn5wzEfeVb/B3+Ty6yFn+5XBIDFFg0\n47KxXV8VD6DcDWvpmdZNOcCcbl0BcqZh3vRzHfQsUtS0rutIx5wy8N62IwKBgHjy\npGssAnpzkCtSHAozJwZcqMV1zHScImTpDuejjYBhOHGN2TDrZX9ONfZGHu/ZasNl\n8rFjEd0LV6pWtveXSwOnkscPo3esTHiKR8Vo4YZ981Idv24MFMpfAwOQAKVJPJ7S\ncUlz/3EbFWRGQq1hbW0RKiAGN5gK1pOIRmaxK1tRAoGAbAIHkoDi0e1CYdBKx/MN\nTRFeAyXCLOxdHX8jlkRFjQRik7U0S2woaMK+GZ7+eGSu/c9D6cDkunY5IrqoQhco\nV+AavZ1YgBAIbMqiFO15ix2gfdhRtblW5S2tdiBlCcyep88C0YuJ3B+rIRQoz3Br\nPGrJ6p4yqv9tQozhKLmsYjM=\n-----END PRIVATE KEY-----\n",
+    "client_email": "dev-local-admin-portal@kscw-nexus-a7tp-stg.iam.gserviceaccount.com",
+    "client_id": "102686106310538980481",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dev-local-admin-portal%40kscw-nexus-a7tp-stg.iam.gserviceaccount.com"
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
